@@ -1,0 +1,27 @@
+.form-control:focus,
+.btn-workshop:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #950db7;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(180, 45, 224, 0.25);
+}
+
+.btn-workshop{
+    color: #a71be0;
+    border-color: #a71be0;
+}
+
+.btn-workshop:hover{
+    color: #fff;
+    background-color: #7c28a7;
+    border-color: #7c28a7;
+}
+
+.actice, .btn-workshop:hover{
+    color: #495057;
+    background-color: #fff;
+}
+.card{
+    margin: 15px;
+}
